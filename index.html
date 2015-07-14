@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Cards - PatternFly</title>
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../dist/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../dist/img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../dist/img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../dist/img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../dist/img/apple-touch-icon-57-precomposed.png">
+    <link href="../dist/css/patternfly.min.css" rel="stylesheet" media="screen, print">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../components/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="../components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <!-- IE8 requires jQuery and Bootstrap JS to load in head to prevent rendering bugs -->
+    <!-- IE8 requires jQuery v1.x -->
+<!--
+    <script src="../components/jquery/dist/jquery.min.js"></script>
+    <script src="../components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../components/c3/c3.min.js"></script>
+    <script src="../components/d3/d3.min.js"></script>
+    <script src="../components/matchHeight/jquery.matchHeight-min.js"></script>
+    -->
+    <link href="css/styles.css" rel="stylesheet" media="screen, print">
+  </head>
+  <body class="cards-pf">  
+    
+  <body>
+    <nav class="navbar navbar-default navbar-pf" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img type="image/svg+xml" src="img/brand-rhmap.svg" alt="Red Hat® Jboss® Mobile Application Platform" width="auto" height="8px" />
+<!--           <img type="image/svg+xml" src="img/brand-rcue.svg" alt="PatternFly Enterprise Application" width="auto" height="10px" /> -->
+        </a>
+      </div>
+      <div class="collapse navbar-collapse navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-utility">
+          <li>
+            <a href="#">Documentation</a>
+          </li>
+          <li>
+            <a href="#">Status</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="pficon pficon-user"></span>
+              Brian Johnson <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Link</a>
+              </li>
+              <li>
+                <a href="#">Another link</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">More options</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Link</a>
+                  </li>
+                  <li>
+                    <a href="#">Another link</a>
+                  </li>
+                  <li>
+                    <a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li>
+                    <a href="#">Separated link</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="#">One more separated link</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#">One more separated link</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-primary">
+          <li class="active">
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Forms</a>
+          </li>
+          <li>
+            <a href="#">Analytics</a>
+          </li>
+          <li>
+            <a href="#">Resources</a>
+          </li>
+          <li>
+            <a href="#">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+<div class="container-fluid container-cards-pf">
+  
+  
+
+<div class="row">
+  <div class="col-xs-12 col-md-9">
+    
+    <div class="fh-main-title">
+      <h1>Name of the company</h1>
+    </div>
+      
+      <div class="row row-cards-pf">
+        <div class="col-xs-6 col-md-3">
+          <div class="card-pf card-pf-accented card-pf-aggregate-status">
+            <h2 class="card-pf-title">
+              Apps Running
+            </h2>
+            <div class="card-pf-body">
+              <p class="card-pf-aggregate-status-notifications">
+                <a href="#"><span class="pficon pficon-ok"></span>2</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="card-pf card-pf-accented card-pf-aggregate-status">
+            <h2 class="card-pf-title">
+              Memory
+            </h2>
+            <div class="card-pf-body">
+              <p class="card-pf-aggregate-status-notifications">
+                <span class="pficon pficon-warning-triangle-o"></span>70%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="card-pf card-pf-accented card-pf-aggregate-status">
+            <h2 class="card-pf-title">
+              CPU
+            </h2>
+            <div class="card-pf-body">
+              <p class="card-pf-aggregate-status-notifications">
+                <span class="card-pf-aggregate-status-notification"><span class="pficon pficon-ok"></span></span>15%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="card-pf card-pf-accented card-pf-aggregate-status">
+            <h2 class="card-pf-title">
+              Storage
+            </h2>
+            <div class="card-pf-body">
+              <p class="card-pf-aggregate-status-notifications">
+                <a href="#"><span class="card-pf-aggregate-status-notification"><span class="pficon pficon-error-circle-o"></span></span></a>93%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div><!-- /row -->
+      
+
+
+      <div class="row row-cards-pf">
+        <div class="col-xs-12 col-sm-12">
+          <div class="card-pf">
+            <div class="card-pf-heading">
+              
+<!--               <a href="#" class="btn btn-primary pull-right">Create New Project</a> -->        
+                    
+              <h2 class="card-pf-title">
+                Active Projects
+              </h2>
+            
+            </div>
+            <div class="card-pf-body">
+              
+            
+            
+<div class="media-list fh-app-stream">
+    
+    <div class="media">
+      <div class="media-left">
+        <a class="fh-app-icon">N</a>
+      </div>
+      <div class="media-body">
+        <h2 class="media-heading"><a href="#">Name of the project</a></h2>
+        <p>Last modified on <strong>2 month ago</strong> by <a href="#">Andrés Galante</a></p>
+        <ul class="list-inline">
+          <li>2<strong>Apps</strong></li>
+          <li>1<strong>Cloud Apps</strong></li>
+          <li>5<strong>Services</strong></li>
+        </ul>
+    </div>
+  </div>
+
+
+    <div class="media">
+      <div class="media-left">
+        <a class="fh-app-icon">N</a>
+      </div>
+      <div class="media-body">
+        <h2 class="media-heading"><a href="#">Name of the project</a></h2>
+        <p>Last modified on <strong>2 month ago</strong> by <a href="#">Andrés Galante</a></p>
+        <ul class="list-inline">
+          <li>2<strong>Apps</strong></li>
+          <li>1<strong>Cloud Apps</strong></li>
+          <li>5<strong>Services</strong></li>
+        </ul>
+    </div>
+  </div>
+
+
+    <div class="media">
+      <div class="media-left">
+        <a class="fh-app-icon">N</a>
+      </div>
+      <div class="media-body">
+        <h2 class="media-heading"><a href="#">Name of the project</a></h2>
+        <p>Last modified on <strong>2 month ago</strong> by <a href="#">Andrés Galante</a></p>
+        <ul class="list-inline">
+          <li>2<strong>Apps</strong></li>
+          <li>1<strong>Cloud Apps</strong></li>
+          <li>5<strong>Services</strong></li>
+        </ul>
+    </div>
+  </div>
+  
+    <div class="media">
+      <div class="media-left">
+        <a class="fh-app-icon">N</a>
+      </div>
+      <div class="media-body">
+        <h2 class="media-heading"><a href="#">Name of the project</a></h2>
+        <p>Last modified on <strong>2 month ago</strong> by <a href="#">Andrés Galante</a></p>
+        <ul class="list-inline">
+          <li>2<strong>Apps</strong></li>
+          <li>1<strong>Cloud Apps</strong></li>
+          <li>5<strong>Services</strong></li>
+        </ul>
+    </div>
+  </div>
+
+
+    <div class="media">
+      <div class="media-left">
+        <a class="fh-app-icon">N</a>
+      </div>
+      <div class="media-body">
+        <h2 class="media-heading"><a href="#">Name of the project</a></h2>
+        <p>Last modified on <strong>2 month ago</strong> by <a href="#">Andrés Galante</a></p>
+        <ul class="list-inline">
+          <li>2<strong>Apps</strong></li>
+          <li>1<strong>Cloud Apps</strong></li>
+          <li>5<strong>Services</strong></li>
+        </ul>
+    </div>
+  </div>
+
+
+</div><!-- media list -->         
+            
+            
+            </div>
+            <div class="card-pf-footer">
+              <p><a href="#"><span class="fa fa-plus"></span>See All Projects</a></p>
+            </div>       
+       
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+  </div><!-- col -->
+
+    
+        <div class="col-xs-12 col-sm-3 sidebar-pf sidebar-pf-right fh-sidebar">
+          <div class=""><!-- card-pf -->
+            <div class="card-pf-heading">
+              <h2 class="card-pf-title">
+                Events
+              </h2>
+            </div>
+            <div class="card-pf-body">
+
+              <div class="list-group">
+                <a href="app-detail-log.html" class="list-group-item">
+                  <h3 class="list-group-item-heading">Name of the project</h3>
+                  <p class="list-group-item-text">Username build a iOS app <strong>10 mins ago</strong>.</p>
+                </a>
+                <a href="app-detail-log.html" class="list-group-item">
+                  <h3 class="list-group-item-heading">Name of the project</h3>
+                  <p class="list-group-item-text">Username did something else <strong>12 mins ago</strong>.</p>
+                </a>
+                <a href="app-detail-log.html" class="list-group-item">
+                  <h3 class="list-group-item-heading">Name of the project</h3>
+                  <p class="list-group-item-text">Username did something other thing <strong>20 mins ago</strong>.</p>
+                </a>
+                <a href="app-detail-log.html" class="list-group-item">
+                  <h3 class="list-group-item-heading">Name of the project</h3>
+                  <p class="list-group-item-text">Username and so on... <strong>30 mins ago</strong>.</p>
+                </a>
+                <a href="app-detail-log.html" class="list-group-item">
+                  <h3 class="list-group-item-heading">Name of the project</h3>
+                  <p class="list-group-item-text">Username you get the idea... <strong>32 mins ago</strong>.</p>
+                </a>
+
+                <a href="app-detail-log.html" class="list-group-item">
+                  <h3 class="list-group-item-heading">Name of the project</h3>
+                  <p class="list-group-item-text">Username you get the idea... <strong>37 mins ago</strong>.</p>
+                </a>
+
+                <a href="app-detail-log.html" class="list-group-item">
+                  <h3 class="list-group-item-heading">Name of the project</h3>
+                  <p class="list-group-item-text">Username you get the idea... <strong>40 mins ago</strong>.</p>
+                </a>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
+</div><!-- main row -->
+  
+  
+    
+      
+      
+    </div><!-- /container -->
+    <script>
+      $(function() {
+        // charts
+        var iops = c3.generate({
+          axis: {
+            x: {
+              show: false
+            },
+            y: {
+              show: false
+            }
+          },
+          bindto: '#iops',
+          color: {
+            pattern: ['#0088ce', '#00659c', '#3f9c35', '#ec7a08', '#cc0000']
+          },
+          data: {
+            columns: [
+              ['Less than one year remaining', 10, 14, 12, 20, 31, 27, 44, 36, 52, 55, 62, 68, 69, 88, 74, 88, 91],
+            ],
+            type: 'area'
+          },
+          legend: {
+            show: false
+          },
+          point: {
+            r: 1,
+            focus: {
+              expand: {
+                r: 4
+              }
+            }
+          },
+          size: {
+            height: 80
+          },
+          tooltip: {
+            // because a sparkline should only contain a single data column, the tooltip will only work for a single data column
+            contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
+              for (i = 0; i < d.length; i++) {
+                return '<span class="c3-tooltip-sparkline">' + d[i].value + '%' + '</span>'
+              }
+            }
+          }
+        });
+        var ccc = c3.generate({
+          axis: {
+            x: {
+              show: false
+            },
+            y: {
+              show: false
+            }
+          },
+          bindto: '#ccc',
+          color: {
+            pattern: ['#0088ce', '#00659c', '#3f9c35', '#ec7a08', '#cc0000']
+          },
+          data: {
+            columns: [
+              ['Less than one year remaining', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 74, 78, 64, 44, 20],
+            ],
+            type: 'area'
+          },
+          legend: {
+            show: false
+          },
+          point: {
+            r: 1,
+            focus: {
+              expand: {
+                r: 4
+              }
+            }
+          },
+          size: {
+            height: 80
+          },
+          tooltip: {
+            // because a sparkline should only contain a single data column, the tooltip will only work for a single data column
+            contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
+              for (i = 0; i < d.length; i++) {
+                return '<span class="c3-tooltip-sparkline">' + d[i].value + '%' + '</span>'
+              }
+            }
+          }
+        });
+        var iops2 = c3.generate({
+          axis: {
+            x: {
+              show: false
+            },
+            y: {
+              show: false
+            }
+          },
+          bindto: '#iops2',
+          color: {
+            pattern: ['#0088ce', '#00659c', '#3f9c35', '#ec7a08', '#cc0000']
+          },
+          data: {
+            columns: [
+              ['Less than one year remaining', 10, 14, 12, 20, 31, 27, 44, 36, 52, 55, 62, 68, 69, 88, 74, 88, 91],
+            ],
+            type: 'area'
+          },
+          legend: {
+            show: false
+          },
+          point: {
+            r: 1,
+            focus: {
+              expand: {
+                r: 4
+              }
+            }
+          },
+          size: {
+            height: 80
+          },
+          tooltip: {
+            // because a sparkline should only contain a single data column, the tooltip will only work for a single data column
+            contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
+              for (i = 0; i < d.length; i++) {
+                return '<span class="c3-tooltip-sparkline">' + d[i].value + '%' + '</span>'
+              }
+            }
+          }
+        });
+        var ccc2 = c3.generate({
+          axis: {
+            x: {
+              show: false
+            },
+            y: {
+              show: false
+            }
+          },
+          bindto: '#ccc2',
+          color: {
+            pattern: ['#0088ce', '#00659c', '#3f9c35', '#ec7a08', '#cc0000']
+          },
+          data: {
+            columns: [
+              ['Less than one year remaining', 30, 44, 40, 21, 38, 47, 80, 77, 81, 55, 67, 68, 74, 78, 64, 44, 20],
+            ],
+            type: 'area'
+          },
+          legend: {
+            show: false
+          },
+          point: {
+            r: 1,
+            focus: {
+              expand: {
+                r: 4
+              }
+            }
+          },
+          size: {
+            height: 80
+          },
+          tooltip: {
+            // because a sparkline should only contain a single data column, the tooltip will only work for a single data column
+            contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
+              for (i = 0; i < d.length; i++) {
+                return '<span class="c3-tooltip-sparkline">' + d[i].value + '%' + '</span>'
+              }
+            }
+          }
+        });
+        // matchHeight the contents of each .card-pf and then the .card-pf itself
+        $(".row-cards-pf > [class*='col'] > .card-pf .card-pf-title").matchHeight();
+        $(".row-cards-pf > [class*='col'] > .card-pf > .card-pf-body").matchHeight();
+        $(".row-cards-pf > [class*='col'] > .card-pf > .card-pf-footer").matchHeight();
+        $(".row-cards-pf > [class*='col'] > .card-pf").matchHeight();
+        // initialize tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+
+
+
+
+    <!-- JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bower_components/patternfly/components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/patternfly/dist/js/patternfly.min.js"></script>
+
+  </body>
+</html>
