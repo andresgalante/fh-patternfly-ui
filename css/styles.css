@@ -11881,10 +11881,11 @@ h2,
   }
 }
 .fh-app-stream .media-body li {
+  text-align: center;
   font-size: 22px;
   line-height: 1;
   border-left: 1px solid #eeeeee;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 .fh-app-stream .media-body li strong {
   margin-top: 10px;
