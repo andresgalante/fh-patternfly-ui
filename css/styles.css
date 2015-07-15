@@ -11941,6 +11941,11 @@ h2,
     display: none !important;
   }
 }
+@media (max-width: 767px) {
+  .fh-sidebar {
+    display: none !important;
+  }
+}
 .fh-main-title {
   background: #fff;
   border-bottom: 1px solid #d1d1d1;
