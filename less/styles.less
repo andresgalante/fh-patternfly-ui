@@ -23,19 +23,19 @@
   margin: 1px 0;
   }
 
-// MEDIA Updates Bootstrap ======================================
 
 
-
-.media-left,
-.media > .pull-left {
-  padding-right: 20px;
-}
 
 
 // media custom =====================================================
 
 .fh-app-stream{
+  
+  .media-left,
+.media > .pull-left {
+  padding-right: 20px;
+}
+
   
   .media{
     border-bottom: 1px solid @gray-lighter;
@@ -123,17 +123,17 @@
 }
 
 
-
 .fh-sidebar{
+  position: absolute;
+  top: 92px;
+  right: 0;
+  bottom: 0;
   background: #fff;
   margin-top: -20px;
   height: auto;
-  .hidden-xs;
-}
-
-.sidebar-pf-right{
   border-left: none!important;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.175);
+  .hidden-sm;
 }
 
 
@@ -169,3 +169,16 @@
   }
 }
 
+
+.fh-event-list{
+  .media{
+    border-bottom: 1px solid @gray-lighter;
+  }
+  .media-heading{
+    font-weight: 600;
+    margin: 0 0 2px 0;
+  }
+  .media-left{
+    font-size: @font-size-h3;
+  }
+}

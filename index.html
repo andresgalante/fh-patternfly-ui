@@ -10,7 +10,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../dist/img/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../dist/img/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../dist/img/apple-touch-icon-57-precomposed.png">
-    <link href="../dist/css/patternfly.min.css" rel="stylesheet" media="screen, print">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="../components/html5shiv/dist/html5shiv.min.js"></script>
@@ -18,13 +17,6 @@
     <![endif]-->
     <!-- IE8 requires jQuery and Bootstrap JS to load in head to prevent rendering bugs -->
     <!-- IE8 requires jQuery v1.x -->
-<!--
-    <script src="../components/jquery/dist/jquery.min.js"></script>
-    <script src="../components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../components/c3/c3.min.js"></script>
-    <script src="../components/d3/d3.min.js"></script>
-    <script src="../components/matchHeight/jquery.matchHeight-min.js"></script>
-    -->
     <link href="css/styles.css" rel="stylesheet" media="screen, print">
   </head>
   <body class="cards-pf">  
@@ -316,7 +308,7 @@
   </div><!-- col -->
 
     
-        <div class="col-xs-12 col-sm-3 sidebar-pf sidebar-pf-right fh-sidebar">
+        <div class="col-xs-12 col-sm-3  fh-sidebar">
           <div class=""><!-- card-pf -->
             <div class="card-pf-heading">
               <h2 class="card-pf-title">
@@ -324,61 +316,114 @@
               </h2>
             </div>
             <div class="card-pf-body">
-
-              <div class="list-group">
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username build a iOS app <strong>10 mins ago</strong>.</p>
-                </a>
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username did something else <strong>12 mins ago</strong>.</p>
-                </a>
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username did something other thing <strong>20 mins ago</strong>.</p>
-                </a>
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username and so on... <strong>30 mins ago</strong>.</p>
-                </a>
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username you get the idea... <strong>32 mins ago</strong>.</p>
-                </a>
-
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username you get the idea... <strong>37 mins ago</strong>.</p>
-                </a>
-
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username you get the idea... <strong>40 mins ago</strong>.</p>
-                </a>
-
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username you get the idea... <strong>37 mins ago</strong>.</p>
-                </a>
-
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username you get the idea... <strong>40 mins ago</strong>.</p>
-                </a>
-
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username you get the idea... <strong>37 mins ago</strong>.</p>
-                </a>
-
-                <a href="app-detail-log.html" class="list-group-item">
-                  <h3 class="list-group-item-heading">Name of the project</h3>
-                  <p class="list-group-item-text">Username you get the idea... <strong>40 mins ago</strong>.</p>
-                </a>
               
-              </div>
+
+<div class="fh-event-list">      
+        
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-info"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->     
+
+
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-ok"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->     
+
+
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-ok"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->     
+
+
+
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-error-circle-o"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->     
+
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-info"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->     
+
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-info"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->     
+
+
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-ok"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->     
+
+
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-warning-triangle-o"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->     
+
+<div class="media">
+  <div class="media-left">
+    <span class="pficon pficon-warning-triangle-o"></span>
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading">Some event happened</h5>
+    <p>Today at 3:25:36 PM</p>
+  </div>
+</div>  <!-- ends item -->    
+
+
+       
+</div><!-- event list -->
+              
+              
             </div>
+            
+            
           </div>
         </div>
     

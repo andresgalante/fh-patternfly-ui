@@ -11841,8 +11841,8 @@ h2,
 .navbar-brand img {
   margin: 1px 0;
 }
-.media-left,
-.media > .pull-left {
+.fh-app-stream .media-left,
+.fh-app-stream .media > .pull-left {
   padding-right: 20px;
 }
 .fh-app-stream .media {
@@ -11926,18 +11926,20 @@ h2,
   font-size: 12px;
 }
 .fh-sidebar {
+  position: absolute;
+  top: 92px;
+  right: 0;
+  bottom: 0;
   background: #fff;
   margin-top: -20px;
   height: auto;
+  border-left: none!important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.175);
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .fh-sidebar {
     display: none !important;
   }
-}
-.sidebar-pf-right {
-  border-left: none!important;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.175);
 }
 .fh-main-title {
   background: #fff;
@@ -11963,4 +11965,14 @@ h2,
 .spark img {
   width: 100%;
   margin: -10px 0 -5px 0;
+}
+.fh-event-list .media {
+  border-bottom: 1px solid #eeeeee;
+}
+.fh-event-list .media-heading {
+  font-weight: 600;
+  margin: 0 0 2px 0;
+}
+.fh-event-list .media-left {
+  font-size: 16px;
 }
