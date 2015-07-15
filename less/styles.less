@@ -83,7 +83,7 @@
   
   .fh-app-icon{
     display:block;
-    background-color: @brand-primary; 
+    background-color: @link-color; 
     color: rgba(255,255,255,.9);
     font-size: @font-size-base * 2.5;
     font-weight: lighter;
@@ -91,6 +91,11 @@
     text-align: center;
     width: 50px;
     border-radius: @border-radius-base;
+    &:hover{
+      background: @link-hover-color;
+      cursor: pointer;
+      text-decoration: none;
+    }
   }  
   
 }// ups media stream
@@ -122,6 +127,7 @@
   background: #fff;
   margin-top: -20px;
   height: auto;
+  .hidden-xs;
 }
 
 .sidebar-pf-right{
@@ -139,7 +145,6 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.175);
 //  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.175);
   z-index: 0;
 //  display: none;
-position: relative;
   h1{
     margin: 0;
     padding: 0;
@@ -147,10 +152,12 @@ position: relative;
     font-size: 20px;
   }
 
-  .fh-main-title-action{
-    position: absolute;
-    right: 20px;
-    top: 14px;
-  }
 }
+
+
+  .card-pf-title-action{
+    position: absolute;
+    right: 25px;
+    top: 16px;
+  }
 

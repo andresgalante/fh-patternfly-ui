@@ -11894,7 +11894,7 @@ h2,
 }
 .fh-app-stream .fh-app-icon {
   display: block;
-  background-color: #00a8e1;
+  background-color: #0099d3;
   color: rgba(255, 255, 255, 0.9);
   font-size: 30px;
   font-weight: lighter;
@@ -11902,6 +11902,11 @@ h2,
   text-align: center;
   width: 50px;
   border-radius: 1px;
+}
+.fh-app-stream .fh-app-icon:hover {
+  background: #00618a;
+  cursor: pointer;
+  text-decoration: none;
 }
 .list-group {
   border: none;
@@ -11924,6 +11929,11 @@ h2,
   margin-top: -20px;
   height: auto;
 }
+@media (max-width: 767px) {
+  .fh-sidebar {
+    display: none !important;
+  }
+}
 .sidebar-pf-right {
   border-left: none!important;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.175);
@@ -11934,7 +11944,6 @@ h2,
   margin: -20px -20px 20px -20px;
   padding: 20px;
   z-index: 0;
-  position: relative;
 }
 .fh-main-title h1 {
   margin: 0;
@@ -11942,8 +11951,8 @@ h2,
   line-height: 17px;
   font-size: 20px;
 }
-.fh-main-title .fh-main-title-action {
+.card-pf-title-action {
   position: absolute;
-  right: 20px;
-  top: 14px;
+  right: 25px;
+  top: 16px;
 }
