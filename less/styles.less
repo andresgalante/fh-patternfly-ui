@@ -21,9 +21,7 @@
 
 .navbar-brand img{
   margin: 1px 0;
-  }
-
-
+}
 
 
 
@@ -31,11 +29,24 @@
 
 .fh-app-stream{
   
-  .media-left,
+.media-left,
 .media > .pull-left {
-  padding-right: 20px;
+//  padding-right: 20px;
 }
 
+  a{
+    color: @gray;
+    &:hover{
+      text-decoration: none;
+      cursor: pointer;
+      .fh-app-stream-icon{
+        background: @link-hover-color;
+      }
+      .media-heading{
+        color:  @link-hover-color;
+      }
+    }
+  }
   
   .media{
     border-bottom: 1px solid @gray-lighter;
@@ -58,14 +69,17 @@
     }
   }
   
-  .media-body{
-    ul{
+  .media-heading{
+    color:  @link-color;
+  }
+  
+  
+  .fh-app-stream-details{
       .hidden-xs;
       .hidden-sm;
       position: absolute;
       right: 0;
       top: 10px;
-    }
     li{
       text-align: center;
       font-size: @font-size-h2;
@@ -78,11 +92,20 @@
         font-size: @font-size-base;
         font-weight: normal;
       }
-      
     }
   }
   
-  .fh-app-icon{
+  .fh-app-stream-analitycs{
+    clear: both;
+    margin-top: 1px;
+    color: @gray-light;
+    margin-bottom: 0;
+    background: #fafafa;
+    padding: 0 5px;
+    border-radius: @border-radius-base;
+  }
+  
+  .fh-app-stream-icon{
     display:block;
     background-color: @link-color; 
     color: rgba(255,255,255,.9);
@@ -92,12 +115,8 @@
     text-align: center;
     width: 50px;
     border-radius: @border-radius-base;
-    &:hover{
-      background: @link-hover-color;
-      cursor: pointer;
-      text-decoration: none;
-    }
   }  
+  
   
 }// ups media stream
 
@@ -154,7 +173,6 @@
   }
 
 }
-
 
   .card-pf-title-action{
     position: absolute;
